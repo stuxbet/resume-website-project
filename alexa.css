@@ -1,0 +1,38 @@
+body {
+    background-color: #000080;
+  }
+  
+  .page-header {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 500px;
+  }
+  
+  .page-navigation {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 200px;
+  }
+  
+  .offset-content {
+    position: absolute;
+    padding-left: 230px;
+    top: 20px;
+    width: 80%;
+    z-index: -1000;
+  }
+  
+  .offset-content .window {
+    margin-bottom: 20px;
+  }
+  
+  .content-view {
+    width: 100%;
+  }
+  
+  nav button {
+    width: 90%;
+    margin-bottom: 20px;
+  }
