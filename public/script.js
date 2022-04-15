@@ -9,6 +9,7 @@ $( document ).ready( function() {
     $( "#BTN_DIV" ).click( function() { $("#WIN_DIV").fadeIn( "fast", function(){} ); } );
     $( "#BTN_SAM" ).click( function() { $("#WIN_SAM").fadeIn( "fast", function(){} ); } );
     $( "#BTN_PHIL" ).click( function() { $("#WIN_PHIL").fadeIn( "fast", function(){} ); } );
+    $( "#BTN_CON" ).click( function() { $("#WIN_CON").fadeIn( "fast", function(){} ); } );
 
 
     $( ".BTN_CLOSE" ).click( function() {
