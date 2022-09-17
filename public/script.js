@@ -1,5 +1,5 @@
 $( document ).ready( function() {
-    $( "#BTN_WEL" ).click( function() { $("#WIN_WEL").fadeIn( "fast", function(){} ); } );
+    $( "#BTN_WEL" ).click( function() {  $("#WIN_TEA").hide(); $("#WIN_WEL").fadeIn( "fast", function(){} ); } );
     $( "#BTN_TEA" ).click( function() { $("#WIN_TEA").fadeIn( "fast", function(){} ); } );
     $( "#BTN_SCH" ).click( function() { $("#WIN_SCH").fadeIn( "fast", function(){} ); } );
     $( "#BTN_SER" ).click( function() { $("#WIN_SER").fadeIn( "fast", function(){} ); } );
@@ -17,3 +17,4 @@ $( document ).ready( function() {
     } );
   } );
   
+
