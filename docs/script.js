@@ -1,130 +1,32 @@
-$( document ).ready( function() {
-    $("#BTN_WEL" ).click( function() { $("#WIN_WEL").fadeIn( "fast", function(){} ); } );
-    $("#BTN_WEL").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_WEL").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_TEA" ).click( function() { $("#WIN_TEA").fadeIn( "fast", function(){} ); } );
-    $("#BTN_TEA").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_TEA").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_SCH" ).click( function() { $("#WIN_SCH").fadeIn( "fast", function(){} ); } );
-    $("#BTN_SCH").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_SCH").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_SER" ).click( function() { $("#WIN_SER").fadeIn( "fast", function(){} ); } );
-    $("#BTN_SER").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_SER").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_CON" ).click( function() { $("#WIN_CON").fadeIn( "fast", function(){} ); } );
-    $("#BTN_CON").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_CON").hide();});
-    $( "#BTN_CV" ).click( function() { $("#WIN_CV").fadeIn( "fast", function(){} ); } );
-    $("#BTN_CV").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_CV").click(function(){ $("#WIN_CON").hide();});
-    $( "#BTN_BKG" ).click( function() { $("#WIN_BKG").fadeIn( "fast", function(){} ); } );
-    $("#BTN_BKG").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_BKG").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_DIV" ).click( function() { $("#WIN_DIV").fadeIn( "fast", function(){} ); } );
-    $("#BTN_DIV").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_DIV").click(function(){ $("#WIN_CON").hide();});
-    $( "#BTN_SAM" ).click( function() { $("#WIN_SAM").fadeIn( "fast", function(){} ); } );
-    $("#BTN_SAM").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_PHIL").hide();});
-    $("#BTN_SAM").click(function(){ $("#WIN_CON").hide();});
-    $( "#BTN_PHIL" ).click( function() { $("#WIN_PHIL").fadeIn( "fast", function(){} ); } );
-    $("#BTN_PHIL").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_PHIL").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_CON" ).click( function() { $("#WIN_CON").fadeIn( "fast", function(){} ); } );
-    $("#BTN_CON").click(function(){ $("#WIN_WEL").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_TEA").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SCH").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SER").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_CON").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_CV").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_BKG").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_DIV").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_SAM").hide();});
-    $("#BTN_CON").click(function(){ $("#WIN_PHIL").hide();});
+$(document).ready(function() {
+  const sections = [
+      "#WIN_WEL", "#WIN_TEA", "#WIN_SCH", "#WIN_SER", 
+      "#WIN_CON", "#WIN_CV", "#WIN_BKG", "#WIN_DIV", 
+      "#WIN_SAM", "#WIN_PHIL"
+  ];
 
+  function showSection(sectionToShow) {
+      sections.forEach(section => {
+          if (section === sectionToShow) {
+              $(section).fadeIn("fast");
+          } else {
+              $(section).hide();
+          }
+      });
+  }
 
-    $( ".BTN_CLOSE" ).click( function() {
-      $( this ).closest( ".window" ).fadeOut( "fast", function() {} );
-    } );
-  } );
-  
+  $("#BTN_WEL").click(function() { showSection("#WIN_WEL"); });
+  $("#BTN_TEA").click(function() { showSection("#WIN_TEA"); });
+  $("#BTN_SCH").click(function() { showSection("#WIN_SCH"); });
+  $("#BTN_SER").click(function() { showSection("#WIN_SER"); });
+  $("#BTN_CON").click(function() { showSection("#WIN_CON"); });
+  $("#BTN_CV").click(function() { showSection("#WIN_CV"); });
+  $("#BTN_BKG").click(function() { showSection("#WIN_BKG"); });
+  $("#BTN_DIV").click(function() { showSection("#WIN_DIV"); });
+  $("#BTN_SAM").click(function() { showSection("#WIN_SAM"); });
+  $("#BTN_PHIL").click(function() { showSection("#WIN_PHIL"); });
 
+  $(".BTN_CLOSE").click(function() {
+      $(this).closest(".window").fadeOut("fast");
+  });
+});
